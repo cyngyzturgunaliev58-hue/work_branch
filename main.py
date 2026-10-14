@@ -10,6 +10,14 @@ def calc():
         print(num1 - num2)
     elif num3 == '*':
         print(num1 * num2)
+    elif num3 == '/':
+        print(num1 / num2)
+    elif num3 == '%':
+        print(num1 % num2)
+    elif num3 == '**':
+        print(num1 ** num2)
+    elif num3 == '//':
+        print(num1 // num2)
 
 calc()
 
